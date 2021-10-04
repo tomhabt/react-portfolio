@@ -3,67 +3,65 @@
     padding: 0;
     box-sizing:border-box;
 }
-
 body {
-    background-color:rgb(95, 154, 165);
+    background-image: url('./assets/header/1.jpg');
 }
 
 /*  header style starts here */
 header {
-    background-color: #31343D;
-    color: #92CCCD;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding: 25px 0px;
+    padding: 15px 0px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    background-image:url('./assets/header/1.jpg');
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
-header h1 {
-    font-size: 35px;
-    padding-left: 50px;
-    padding-right: 10px;
-    background-color: #92CCCD;
-    color: #31343D;
-}
-
 .name {
     color: #31343D;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 50px;
+    padding-right: 10px;
+    background-color: #92CCCD; 
     text-decoration: none;
 }
-
-header nav {
-    font-size: 20px; 
-    padding-top: 15px;
-    margin-right: 40px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.initials {
+    font-size: 25px;
 }
-
+header nav {
+    padding-top: 10px;
+    margin-right: 40px;
+    float: inline-start;
+}
 header nav ul {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    align-items: center;
     list-style: none; 
+    text-decoration: none;
 }
-
 header nav ul li {
+    font-size: 15px; 
     margin-left: 15px;
-    border-bottom: 5px solid;
     padding-left: 10px;
     padding-right: 10px;
 }
-
-.nav {
-    color:  #92CCCD; 
+header a {
     text-decoration: none;
+}
+header marquee {
+    color: white;
+    writing-mode: horizontal-tb;
 }
 /*  header style ends here */
 
 
+
+
 /*  avatar style startss here */
 .hero  {
-    background-color:white;
+    background-image:url('./assets/background/full-stack abstract.jpg');
 }
 
 .avatar {
@@ -88,59 +86,150 @@ h2  {
 }
 
 
+.crediential-section {
+    height:60px;
+    float: right;
+    width:100%;
+    background-color:black;
+    background-size: 100% 100%;
+    box-shadow: 2px 2px 10px 7px #92CCCD;
+    animation:slider 9s infinite linear;
+    transition: width 2s, height 4s; 
+}
+
+.crediential-section:hover {
+    width: 100%;
+    height: 300px;
+  }
+  /* @keyframes slider{
+      0%{  }
+      35{  }
+      75%{  }
+  } */
+
+  .crediential-animation-title {
+      background-color: rgba(27,31,34,0.85);
+      font-size: 2.1rem;
+      line-height: 1.4;
+      letter-spacing: 0.4rem;
+      align-items: center;
+  }
+  
+
+
 /*  avatar style ends here */
 
 /*  section Style with two coloumn starts here */
-.section-title  {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 35px;
-    color: white;
-    border-right: 5px solid;
-    padding-right: 15px; 
-    display: flex;
+#section {
+    width:95%;
+    margin-left: 2.5%;
 }
 
-.border-1 {
+#section:after {
+    content: "";
+    display:table;
+    clear:both;
+}
+ .about,.footer,.portfolio, .contact {
+    float: left;
+    padding: 10px;
+    display: inline;
+    color:grey
+  } 
+  
+  .left {
+    width: 15%;
+    margin: 30px 0px 10px 0px;
+    text-align: right;
+    color:#92CCCD
+
+  }
+  
+  .right {
+    width: 80%;
+    box-shadow: 2px 2px 10px 0px #92CCCD;
+    margin: 30px 0px 10px 0px;
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 20px;
+
+
+
+  } 
+  
+   /* Clear floats after the columns
+  .row:after {
+    content: "";
+    display: inline;
+    clear: both;
+  } */
+
+#title  {
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    color: white;
+    float:left;
+    text-align: right;
+    display: flex;
+    margin-top:30px; 
+    border: 5px solid;
+}
+
+
+
+
+
+    
+    
+  
+
+
+
+
+
+
+/* .border-1 {
     padding-bottom: 250px; 
     float: left;
     margin-left: 120px;
     margin-top: 30px;  
-}
+} */
 
-.border-2 {
+/* .border-2 {
     padding-bottom: 600px; 
     float: left;
     margin-left: 140px;
     margin-top: 40px;
-}
+} */
 
-.border-3 {
+/* .border-3 {
     padding-bottom: 40px; 
     float: left;
     margin-left: 90px;
     margin-top: 50px;
-}
+} */
 
-.about p {
+/* #about {
     margin: 30px 60px 30px 40px;
     display: flex;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: white;
-    font-size: 20px;
+    font-size: 12px;
     text-align: justify;
     flex-wrap: wrap;
     width: 90%; 
-}
+} */
 
-.flex-container {
+/* .flex-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-content: space-between;
     flex-wrap: wrap;   
-}
+} */
 
-.top-fig {
+/* .top-fig {
     position: relative;
     margin-left: 20px;
     margin-top: 50px;
@@ -182,29 +271,31 @@ figcaption {
     font-weight:100;  
 }
 
-.row {
+.table {
 display: table;
-}
-
+} */
+/* 
 .column {
     position: relative;
     margin-left: 20px;
     margin-top: 10px;
     float: left;
     width: 46%; 
-}
+} */ */
+
+
 
 /* Footer Style starts here */
-.nav {
+.footer-nav {
     color:  #92CCCD; 
     text-decoration: none;
 }
 
 footer nav {
     font-size: 20px; 
-    padding-top: 60px;
-    margin-right: 40px;
-    margin-left: 50px;
+    padding-top: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -224,6 +315,9 @@ footer nav ul li {
     
 }
 /* Footer Style starts here */
+
+
+
 
 /* Flexbox starts here */
 .flex-row {
@@ -253,8 +347,12 @@ footer nav ul li {
 
 
 
-form {
-    width: 40%;
+/* form {
+    width: 100%;
+  } */
+
+  label {
+      display: block;
   }
   
   input {
@@ -270,3 +368,44 @@ form {
     border: 1px solid var(--secondary);
     box-shadow: 0 0 .25rem rgba(0, 0, 0, .5);
   }
+
+  .row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+  
