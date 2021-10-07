@@ -4,7 +4,7 @@
     box-sizing:border-box;
 }
 body {
-    background-image: url('./assets/header/1.jpg');
+    background-image: url('./assets/header/0.jpg');
 }
 
 /*  header style starts here */
@@ -13,7 +13,7 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    background-image:url('./assets/header/1.jpg');
+    background-image:url('./assets/header/0.jpg');
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .name {
@@ -46,9 +46,20 @@ header nav ul li {
     margin-left: 15px;
     padding-left: 10px;
     padding-right: 10px;
+    
 }
+
+.navActive, header nav ul li:hover {
+    background-color: #92CCCD;
+ 
+}
+
+/* .navActive {
+    background-color: #92CCCD;
+  } */
 header a {
     text-decoration: none;
+    color: rgb(165, 74, 74);
 }
 header marquee {
     color: white;

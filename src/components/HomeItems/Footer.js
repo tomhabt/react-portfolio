@@ -11,15 +11,15 @@ export default function Footer() {
   return (
     <footer>
        <section id="about-me">
-            <div class="footer left">
+            <div className="footer left">
           <h1>Contact Me</h1>
         </div>
-        <div class="footer right">
+        <div className="footer right">
             <nav>
               <ul>
                 {contacts.map((contact) => (
-                  <li> 
-                    <a href={contact.reference} className="footer-nav">{contact.data}</a>
+                  <li key={contact.name} > 
+                    <a href={contact.reference}  className="footer-nav">{contact.data}</a>
                   </li>
                 ))}
               </ul>

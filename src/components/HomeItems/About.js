@@ -1,19 +1,16 @@
 import React from 'react';
-import poster from '../../assets/profilePic/0.jpg';
 
 
 export default function About() {
+    
   return (
     <div>
-        <section className="crediential-section">
-            <marquee className='crediential-animation-title'>Background</marquee>
-        </section>
         <section id="section">
             <div className="about left">
-                <h1 >About Me</h1>
+                <h1 id='about'>About Me</h1>
             </div>
             <div className="about right">
-                <p>
+                <p >
                     I  worked and studied in Civil Engineering as a high-rated graduate in 2008. Up until 2015, I have participated in design of multi-span structral 
                     bridges and also worked on a construction of  Asphalt pavements of different projects in Easter-Africa and Europe. Moving into another part of the world in 2016 gave me a great opportunity to 
                     join to another era in computer science leading me to work in different organizations in the capital of Canada in web developing projects using different CMS. 
@@ -30,28 +27,7 @@ export default function About() {
                 </p>
             </div>
         </section>
-        <section id="section">
-            <div className="portfolio left">
-                <h1 >Portfolio</h1>
-            </div>
-            <div className="portfolio right">
-
-                <div className="row"> 
-                    <div className="column">
-                        <img src={poster}  />
-                    </div>
-                    <div className="column">
-                    <img src={poster}  />
-                    </div>
-                    <div className="column">
-                        <img src={poster}  />
-                    </div>
-                    <div className="column">
-                    <img src={poster}  />
-                    </div>
-                </div>
-            </div>
-        </section>
+       
     </div>
 
   )
