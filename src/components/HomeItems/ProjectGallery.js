@@ -24,6 +24,7 @@ export default function ProjectGallery() {
   }];
   return (
     <div>
+      
       <section id="section">
             <div className="portfolio left">
                 <h1 id='portfolio'>Portfolio</h1>

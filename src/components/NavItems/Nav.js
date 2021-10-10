@@ -1,16 +1,51 @@
 import React, { useEffect, useState }  from 'react';
 import {capitalizeFirstLetter} from '../../utils/helpers'
+import Avatar from '../HomeItems/Avatar';
 
 export default function Nav (props) {
   const {  
-    menus= [],
-    setCurrentMenu,
-    currentMenu,
+      menus= [],
+      setCurrentMenu,
+      currentMenu,
+
+      homeSelected,
+      aboutSelected,
+      portfolioSelected,
+      contactSelected,
+      resumeSelected,
+
+      setHomeSelected,
+      setAboutSelected,
+      setPortfolioSelected,
+      setContactSelected,
+      setResumeSelected,
     } = props;
 
     useEffect(() => {document.title =capitalizeFirstLetter(currentMenu.name)
                     },[currentMenu]);
 
+  // const tab = ['Home', 'About Me', 'Portfolio', 'Contact Me', 'Resume']
+  
+  // function handlePageChange (tab) {
+  //       console.log('tomed')
+  //       if (currentMenu.name === menus[1].name) {
+  //         setAboutSelected(true);
+  //       }
+  //       if (currentMenu.name === menus[2].name) {
+  //         console.log(currentMenu)
+  //         setPortfolioSelected(true);
+  //       }
+  //       if (currentMenu.name === menus[3].name) {
+  //         setContactSelected(true);
+  //       }
+  //       if (currentMenu.name === menus[4].name) {
+  //         setResumeSelected(true);
+  //       } else {
+  //         setHomeSelected(true)
+  //       }
+  //   }
+
+ 
   return (
       <div> 
           <header>
@@ -25,7 +60,17 @@ export default function Nav (props) {
                     {menus.map((menu) => (
                     <li className={ `${currentMenu.name ===menu.name && 'navActive'}`} key={menu.name}> 
                       {/* <a data-testid="about" href={menu.reference} key={menu.name}>{menu.name}</a> */}
-                      <span  onClick={() => setCurrentMenu(menu)}><a href={menu.reference} key={menu.name}>{capitalizeFirstLetter(menu.name)}</a></span>
+                      <span  onClick={() => { 
+                      setCurrentMenu(menu);
+                      // handlePageChange()
+                      // setContactSelected(true);
+                      // setAboutSelected(true);
+                      // setPortfolioSelected(true);
+                      // setResumeSelected(true);
+
+                    }}
+                       
+                       ><a href={menu.reference} key={menu.name}>{capitalizeFirstLetter(menu.name)}</a></span>
                     </li>
                     ))}
                   </ul>
