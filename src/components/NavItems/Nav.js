@@ -1,6 +1,6 @@
-import React, { useEffect, useState }  from 'react';
+import React, { useEffect }  from 'react';
 import {capitalizeFirstLetter} from '../../utils/helpers'
-import Avatar from '../HomeItems/Avatar';
+
 
 export default function Nav (props) {
   const {  
@@ -8,17 +8,17 @@ export default function Nav (props) {
       setCurrentMenu,
       currentMenu,
 
-      homeSelected,
-      aboutSelected,
-      portfolioSelected,
-      contactSelected,
-      resumeSelected,
+      // homeSelected,
+      // aboutSelected,
+      // portfolioSelected,
+      // contactSelected,
+      // resumeSelected,
 
-      setHomeSelected,
-      setAboutSelected,
-      setPortfolioSelected,
-      setContactSelected,
-      setResumeSelected,
+      // setHomeSelected,
+      // setAboutSelected,
+      // setPortfolioSelected,
+      // setContactSelected,
+      // setResumeSelected,
     } = props;
 
     useEffect(() => {document.title =capitalizeFirstLetter(currentMenu.name)
