@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 export default function About() {
     
   return (
@@ -16,14 +15,13 @@ export default function About() {
                     <li>Developing skill in UI technologies like ReactJS, HTML5, CSS, JavaScript frameworks and libraries.</li>
                     <li>Developing skill in RESTful API Services with Node.js, and Express.js.</li>
                     <li>Developing skill with  responsive web design using React-bootstrap,</li>
-                    <li>Developing skill with  Mongo DB and MySQL.</li>
-                    <li>Well experienced in Third-Party web Content management systems CMSs specially In Joomla and WordPress (Currently working on that).</li>
+                    <li>Developing skill with  MongoDB and MySQL.</li>
+                    <li>Developing skill with  the GraphQL to serve API requests with a single API endpoint</li>
                     <li>Developing skill with version control using GitHub and GitLab.</li>
+                    <li>Well experienced in Third-Party web Content management systems CMSs specially In Joomla and WordPress (Currently working on that).</li>
                 </div>
             </div>
         </section>
-       
     </div>
-
-  )
+  );
 }

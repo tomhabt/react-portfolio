@@ -37,7 +37,6 @@ export default function ContactForm () {
         // here by the back end developed later
         console.log(formState)
     }
-
     return (
     <section id="section">
          <div className="contact left">
@@ -56,7 +55,6 @@ export default function ContactForm () {
             <div>
                 <label htmlFor="message">Message:</label>
                 <textarea name="message"   rows="5" defaultValue={message} onBlur={handleChange}/>
-                
             </div>
             {errorMessage &&
             <div>

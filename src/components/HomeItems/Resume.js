@@ -2,29 +2,35 @@ import React from 'react'
 
 export default function Resume() {
   return (
+    <section id="section">
+    <div className="contact left">
+   <h1 >Resume</h1>
+   </div>
     <div id='resume'>
         <div className="about right">
-                <h2>Front End</h2>
+            <p id='resume-para'><a href='http://tomhabt.github.io/react-portfolio'>Download My resume here</a></p>
+                <h2>Front End Potentials</h2>
                 <div className='about-list'>
-                    <li>Junior full stack developer with developing experience in successfully designing and implementing web applications.</li>
-                    <li>Developing skill in UI technologies like ReactJS, HTML5, CSS, JavaScript frameworks and libraries.</li>
-                    <li>Developing skill in RESTful API Services with Node.js, and Express.js.</li>
-                    <li>Developing skill with  responsive web design using React-bootstrap,</li>
-                    <li>Developing skill with  Mongo DB and MySQL.</li>
-                    <li>Well experienced in Third-Party web Content management systems CMSs specially In Joomla and WordPress (Currently working on that).</li>
-                    <li>Developing skill with version control using GitHub and GitLab.</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                    <li>JQuery</li>
+                    <li>Responsive Design</li>
+                    <li>React</li>
+                    <li>Bootstrap</li>
                 </div>
-                <h2>Back End</h2>
+                <h2>Back End Potentials</h2>
                 <div className='about-list'>
-                    <li>Junior full stack developer with developing experience in successfully designing and implementing web applications.</li>
-                    <li>Developing skill in UI technologies like ReactJS, HTML5, CSS, JavaScript frameworks and libraries.</li>
-                    <li>Developing skill in RESTful API Services with Node.js, and Express.js.</li>
-                    <li>Developing skill with  responsive web design using React-bootstrap,</li>
-                    <li>Developing skill with  Mongo DB and MySQL.</li>
-                    <li>Well experienced in Third-Party web Content management systems CMSs specially In Joomla and WordPress (Currently working on that).</li>
-                    <li>Developing skill with version control using GitHub and GitLab.</li>
+                    <li>APIs</li>
+                    <li>Node</li>
+                    <li>Express</li>
+                    <li>MySQL, Sequlize</li>
+                    <li>MongoDB, Mongoose</li>
+                    <li>REST</li>
+                    <li>GraphQL</li>
                 </div>
             </div>
     </div>
+    </section>
   )
 }

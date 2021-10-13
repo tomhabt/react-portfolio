@@ -180,15 +180,19 @@ button {
   border-radius: 10px;
 }
 
-#section {
+#section, #resume  {
     width:95%;
     margin-left: 2.5%;
 }
 
- #resume {
-    width:120%;
-    margin-left: 2.5%;
-    align-items: center;
+ #resume-para {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    text-decoration: underline;
+ }
+
+ #resume-para a {
+    color: aqua;
 }
 
 #section:after {
@@ -321,8 +325,8 @@ button {
 
 /* Mediaquery starts here */
 
-@media screen and (max-width: 768px) {
-.section-title  {
+@media screen and (max-width: 600px) {
+#section-title  {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 35px;
     color: white;
@@ -336,6 +340,8 @@ button {
       flex: 50%;
       max-width: 50%;
     }
+
+
   }
   
   @media screen and (max-width: 600px) {
@@ -345,4 +351,4 @@ button {
       max-width: 100%;
     }
   }
-  
+    
