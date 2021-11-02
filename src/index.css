@@ -85,7 +85,7 @@ header a {
   box-shadow: 2px 2px 10px 7px #92CCCD;
   animation:slider 9s infinite linear;
   transition: width 2s, height 4s; 
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .qoute-section {
@@ -129,6 +129,9 @@ header a {
   padding-right: 50px;
   align-items: center;
   text-align: justify;
+}
+.marquee-para a {
+  text-decoration: none;
 }
 
 /* SECTION  style */
@@ -206,6 +209,17 @@ button {
   display: inline;
   color:grey
 } 
+
+.flex-container li  {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.flex-container a  {
+  font-family:'Times New Roman', Times, serif ;
+  color: blanchedalmond;
+  text-decoration: none;
+  
+}
   
 .left {
   width: 15%;
@@ -283,6 +297,7 @@ button {
   display: inline;
   font-style: italic;
   margin-right: -10px;
+  text-decoration: none;
 }
 
 .text  {

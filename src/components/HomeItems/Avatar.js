@@ -1,5 +1,6 @@
 import React from 'react';
 import poster from '../../assets/profilePic/0.jpeg';
+import Bg from '../../assets/background/Bg.png';
 
 export default function Avatar() {
   return (
@@ -7,7 +8,7 @@ export default function Avatar() {
         <section className="marquee-section">
             <marquee className='marquee-title'>Background</marquee>
             <div className='marquee-para'>
-                <p>
+            <a href={Bg}> <p>
                       Back in 2008, I  studied Civil Engineering  and then worked on a number of 
                       Highway designs and construction works. Up until 2015, I have participated in 
                       design of multi-span structral bridges and also worked on a construction of  
@@ -27,7 +28,7 @@ export default function Avatar() {
                       Well being said, I  have a self-confidence and can interact with my co-workers as 
                       I had so many great opportunities in the past to work with teams in technical, 
                       managerial and diplomatic levels. 
-                </p>
+                </p></a>
             </div>
         </section>
         <section className='hero'>

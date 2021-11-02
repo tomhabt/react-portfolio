@@ -43,8 +43,26 @@ export default function ContactForm () {
         <h1 >Contact Me</h1>
         </div>
         <div className="contact right">
-        <form id='contact-form' onSubmit={handleSubmit}>
-            <div>
+        {/* <form id='contact-form' onSubmit={handleSubmit}> */}
+        <div class="flex-container">
+        <nav>
+          <ul>
+            <li>
+                     <a href="callto:+16136008669" class="nav">Phone: +1(613) 600.8669</a>
+            </li>
+            <li>
+                    <a href="mailto:thomas.habtemariam@gmail.com"class="nav">Email: thomas.habtemariam@gmail.com</a>
+            </li>
+            <li>
+                    <a href="https://www.github.com/tomhabt"class="nav">GitHub: github/tomhabt</a>
+            </li>
+            <li>
+                     <a href="https://www.linkedin.com/in/thomas-habtemariam-eng-5b5a6832"class="nav">Linkedin: linkedin.com/in/thomas-habtemariam-eng-5b5a6832/</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+            {/* <div>
                 <label htmlFor="name">Name:</label>
                 <input type="text"   name="name" defaultValue={name} onBlur={handleChange}/>
             </div>
@@ -61,7 +79,7 @@ export default function ContactForm () {
                 <p className="error-text">{errorMessage}</p>
             </div>}
             <button type="submit">Submit</button>  
-        </form>
+        </form> */}
         </div>
     </section>
   )

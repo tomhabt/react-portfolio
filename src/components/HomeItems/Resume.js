@@ -8,25 +8,25 @@ export default function Resume() {
    </div>
     <div id='resume'>
         <div className="about right">
-            <p id='resume-para'><a href='http://tomhabt.github.io/react-portfolio'>Download My resume here</a></p>
+            <p id='resume-para'><a href='http://tomhabt.github.io/react-portfolio'>Get My Resume here</a></p>
                 <h2>Front End Potentials</h2>
                 <div className='about-list'>
+                    <li>React JS</li>
                     <li>HTML</li>
                     <li>CSS</li>
                     <li>Javascript</li>
                     <li>JQuery</li>
                     <li>Responsive Design</li>
-                    <li>React</li>
                     <li>Bootstrap</li>
                 </div>
                 <h2>Back End Potentials</h2>
                 <div className='about-list'>
                     <li>APIs</li>
-                    <li>Node</li>
-                    <li>Express</li>
+                    <li>Node JS</li>
+                    <li>Express JS</li>
                     <li>MySQL, Sequlize</li>
                     <li>MongoDB, Mongoose</li>
-                    <li>REST</li>
+                    <li>RESTful API Operation</li>
                     <li>GraphQL</li>
                 </div>
             </div>
