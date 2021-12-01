@@ -48,16 +48,16 @@ export default function ContactForm () {
         <nav>
           <ul>
             <li>
-                     <a href="callto:+16136008669" class="nav">Phone: +1(613) 600.8669</a>
+                Phone: <a href="callto:+16136008669" class="nav">+1 (613)600.8669</a>
             </li>
             <li>
-                    <a href="mailto:thomas.habtemariam@gmail.com"class="nav">Email: thomas.habtemariam@gmail.com</a>
+                Email: <a href="mailto:thomas.habtemariam@gmail.com" class="nav">thomas.habtemariam@gmail.com</a>
             </li>
             <li>
-                    <a href="https://www.github.com/tomhabt"class="nav">GitHub: github/tomhabt</a>
+                GitHub: <a href="https://www.github.com/tomhabt" class="nav">github/tomhabt</a>
             </li>
             <li>
-                     <a href="https://www.linkedin.com/in/thomas-habtemariam-eng-5b5a6832"class="nav">Linkedin: linkedin.com/in/thomas-habtemariam-eng-5b5a6832/</a>
+               Linkedin: <a href="https://www.linkedin.com/in/thomas-habtemariam-eng-5b5a6832"class="nav">linkedin.com/in/thomas-habtemariam-eng-5b5a6832</a>
             </li>
           </ul>
         </nav>
