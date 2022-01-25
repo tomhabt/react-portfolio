@@ -48,16 +48,16 @@ export default function ContactForm () {
         <nav>
           <ul>
             <li>
+                Primary Email: <a href="mailto:thomas.habtemariam@gmail.com" class="nav">thomas.habtemariam@gmail.com</a>
+            </li>
+            <li>
                 Phone: <a href="callto:+16136008669" class="nav">+1 (613)600.8669</a>
             </li>
             <li>
-                Email: <a href="mailto:thomas.habtemariam@gmail.com" class="nav">thomas.habtemariam@gmail.com</a>
+                GitHub: <a href="https://www.github.com/tomhabt" class="nav">https://bit.ly/3Iz51cs</a>
             </li>
             <li>
-                GitHub: <a href="https://www.github.com/tomhabt" class="nav">github/tomhabt</a>
-            </li>
-            <li>
-               Linkedin: <a href="https://www.linkedin.com/in/thomas-habtemariam-eng-5b5a6832"class="nav">linkedin.com/in/thomas-habtemariam-eng-5b5a6832</a>
+               Linkedin: <a href="https://www.linkedin.com/in/thomas-habtemariam-5b5a6832"class="nav">https://bit.ly/3qUF5SE</a>
             </li>
           </ul>
         </nav>

@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import Nav from './components/NavItems/Nav';
-import Avatar from './components/HomeItems/Avatar';
+import HomePage from './components/HomeItems/HomePage';
 import About from './components/HomeItems/About';
 import ProjectGallery from './components/HomeItems/ProjectGallery';
 import Footer from './components/HomeItems/Footer';
@@ -10,10 +10,10 @@ import Resume from './components/HomeItems/Resume';
 function App() {
   const [menus] = useState([
     {name:'Home', reference:'http://tomhabt.github.io/react-portfolio'},
-    {name:'About Me', reference:'#about'},
-    {name:'Portfolio', reference:'#portfolio'},
-    {name:'Contact Me', reference:'#contact-form'},
-    {name:'Resume', reference:'#resume'}
+    {name:'About me', reference:'#about'},
+    {name:'Projects', reference:'#portfolio'},
+    {name:'Contact me', reference:'#contact-form'},
+    {name:'Get my Resume', reference:'https://drive.google.com/file/d/18thZzmFuO0uLpdhjYcRBHmidFmYMSkEX/view?usp=sharing'}
   ]
   );
   const [currentMenu, setCurrentMenu] = useState(menus[0]);
@@ -25,10 +25,8 @@ function App() {
         return <ProjectGallery />
       case (menus[3].name):
         return <ContactForm />
-      case (menus[4].name):
-        return <Resume />
         default:
-          return <Avatar/>
+          return <HomePage/>
     }
   }
   return (

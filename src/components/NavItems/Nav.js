@@ -16,7 +16,7 @@ export default function Nav (props) {
           <header>
               <h1>
                   <a href="http://tomhabt.github.io/react-portfolio" className='name'>
-                      <span className='initials'> T</span>homas <span className='initials'>H</span>abtemariam, Eng.
+                      <span className='initials'> T</span>homas <span className='initials'>H</span>abtemariam
                   </a>
               </h1>
               <nav>

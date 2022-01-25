@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Footer() {
   const contacts = [
-    {name:'LinkedIn', reference:'https://www.linkedin.com/in/thomas-habtemariam-eng-5b5a6832/'},
+    {name:'LinkedIn', reference:'https://www.linkedin.com/in/thomas-habtemariam-5b5a6832/'},
     {name:'GitHub', reference:'https://github.com/tomhabt/'},
     {name:'Stack Overflow', reference:'https://stackoverflow.com/'},
   ];

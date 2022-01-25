@@ -9,19 +9,26 @@ export default function About() {
                 <h1 id='about'>About Me</h1>
             </div>
             <div className="about right">
-                <h2>A Full-Stack web developer with experienced  Civil Engineering background.</h2>
+                <h2>A Full Stack Web Developer, able to perform front-end as well as back-end applications or micro-services in agile development.</h2>
                 <div className='about-list'>
-                    <li>Full-stack web developer with developing experience in successfully designing and implementing web applications.</li>
-                    <li>Developing skills in UI technologies like React, HTML5, CSS, JavaScript frameworks and libraries,</li>
-                    <li>Developing skills with responsive web design using React-bootstrap,</li>
-                    <li>Developing skills in RESTful API Services with Node.js, Express.js,</li>
-                    <li>Developing skills with MongoDB (mongoose) and MySQL database system,</li>
-                    <li>Developing skills with GraphQL query management and single end-point API services,</li>
-                    <li>Developing skills with Test driven development TDD of codes for well implement of unit test, code, and refactor with Jest, </li>
-                    <li>Interested with Progressive web applications PWA, </li>
-                    <li>Well experienced in Third-Party web Content management systems CMSs specially In JOOMLA 5.0 and WORDPRESS 5.6 (Current assignment), </li>
-                    <li>Developing skill with version control using GitHub, GitLab and Heroku, </li>
-                    <li>Playground skills on Insomnia, Postman and Graphql. </li>
+                    <h3>SUMMARY</h3>
+                    <ul>
+                        <li>Worked with agile environment with scrum methodology and maintained all sprint iterations,</li>
+                        <li>Skilled in React.js library for building user interfaces based on UI components as demonstrated in three model projects, </li>
+                        <li>Accomplished, in combining React.js and Bootstrap, a social media application and shopping sites with responsive web design, </li>
+                        <li>Experienced with HTML5 (the living standard), CSS, JavaScript frameworks and libraries,</li>
+                        <li>Executed RESTful API Services for variety of projects with Node.js, Express.js and GraphQL playground,</li>
+                        <li>Developed skill with SQL and NoSQL databases specializing in MongoDB, </li>
+                        <li>Knowledge with Redux and Progressive Web Applications (PWAs),</li>
+                        <li>Skilled with Bootstrap, Webpack, jQuery, & Moment.js,</li>
+                        <li>Acquired GitHub and GitLab version controlling systems in development as well as production environment,</li>
+                        <li>Worked with WordPress V5 and Joomla V3 Content Management Systems (CMS) for websites,</li>
+                        <li>Worked with Linux systems; Adobe Photoshop; MS-Word, PowerPoint, Excel, and Auto-CAD 3D,</li>
+                        <li>Completed training on Amazon Web Services, AWS Cloud computing Services and initiation,</li>
+                        <li>On-training on Python Programming language, scheduled to execute final project due in two weeks,</li>
+                        <li>Soft skilled in effective interpersonal skills; Problem solving; Teamwork; Excellent verbal and written communication; Client focus; Organized and fast learner for new or updated technologies,</li>
+                        <li>Clean Criminal Record (Proven).</li>
+                    </ul>
                 </div>
             </div>
         </section>
