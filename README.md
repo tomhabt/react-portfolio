@@ -1,6 +1,32 @@
-# Getting Started with Create React App
+# A React JavaScript based sigle page application site
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Screenshots - How the landing page looks like
+![SPA 1](https://user-images.githubusercontent.com/84083304/151070633-f6907f45-5ba4-4705-915a-3df974f66a20.png)
+## Table of Contents
+
+* [Installation](#installation)
+
+* [Available-Scripts](#Available Scripts)
+
+* [Usage](#usage)
+
+* [License](#license)
+
+* [Contributing](#contributing)
+
+* [Questions](#questions)
+
+## Installation
+
+To install please fork/clone to your repository
+
+To install npm packages please run:
+
+```
+npm install
+```
 
 ## Available Scripts
 
@@ -11,13 +37,14 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
+
+To start the program please run:
+
+```
+npm start
+```
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
@@ -27,7 +54,6 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ### `npm run eject`
 
@@ -39,32 +65,28 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## Screenshots - How the About page looks like
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![SPA 1](https://user-images.githubusercontent.com/84083304/151070633-f6907f45-5ba4-4705-915a-3df974f66a20.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Usage
 
-### Code Splitting
+To visit the app, please view the following link: https://tomhabt.github.io/react-portfolio/
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## License
+    
+Licensed for use with the MIT license.
 
-### Analyzing the Bundle Size
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Contributions are welcomed.
+Made with ❤️ by Thomas Habtemariam.
 
-### Making a Progressive Web App
+## Questions
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+This work is saved in the following repository
+[Thomas Habtemariam](https://github.com/tomhabt/budget-tracker.git/)
 
-### Advanced Configuration
+For questions and inquiries contact me at:
+thomas.habtemariam@gmail.com
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
