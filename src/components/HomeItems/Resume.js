@@ -8,7 +8,7 @@ export default function Resume() {
    </div>
     <div id='resume'>
         <div className="about right">
-            <p id='resume-para'><a href='https://drive.google.com/file/d/18thZzmFuO0uLpdhjYcRBHmidFmYMSkEX/view?usp=sharing'>Get My Resume here</a></p>
+            <p id='resume-para'><a href='https://drive.google.com/file/d/15MPBrzkhxDDGn1YlNohZb-MzCxFBs8sD/view?usp=sharing'>Get My Resume here</a></p>
                 <h2>Front End Potentials</h2>
                 <div className='about-list'>
                     <li>React.js</li>
